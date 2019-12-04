@@ -2,13 +2,13 @@
 Question:
 1.	How long did you spend on the technical test? What would you add to your solution if you had more time? If you didn't spend much time on the technical test then use this as an opportunity to explain what you would add.
 #Answer:
-I spent an hour on the technical test. If I had more time, I would create separate feature files and step definition files for checking all the functionalities to eliminate repetitive steps in same class, which will help at the time of regression and integration testing. I would also add explicit wait.
+I spent an hour on the technical test. If I had more time, I would create separate feature files and step definition files for checking all the functionalities to eliminate repetitive steps in same class, which will help at the time of regression and integration testing. I would also add explicit wait. I also had written automation test to cover complex functionalities like using dropdown, Action class, and Java Script Executor class. I would perform cross browser testing with Firefox, IE and Safari as well.
 
 ---
 Question:
 2.	What do you think is the most interesting trend in test automation?
 #Answer:
-Various frameworks give the testers and companies lots of choice based on an application and expected functionality. New technologies like Robotic Process Automation and Artificial Intelligence are boon to automation industry being very fast and dependable.
+Various frameworks give the testers and companies lots of choices based on an application and expected functionality. New technologies like Robotic Process Automation and Artificial Intelligence are boon to automation industry being very fast and dependable.
 
 ---
 Question:
@@ -49,7 +49,8 @@ Question:5.	Please describe yourself using JSON.
 ],
 
 "believes": [
-"Be the change you wish to see in the world!"
+"Be the change you wish to see in the world!",
+"Burn to shine, be a star!"
 ]
 }
 
