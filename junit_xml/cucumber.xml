@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="52.93944">
+<testcase classname="Use the website to find restaurants" name="Search for restaurants in an area" time="36.65729">
+<system-out><![CDATA[Given I want food in "AR51 1AA".............................................passed
+When I search for restaurants...............................................passed
+Then I should see some restaurants in "AR51 1AA"............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Use the website to find restaurants" name="Entering wrong postcode" time="6.644482">
+<system-out><![CDATA[Given I want food at "L6Y 4P9"..............................................passed
+When I click on send button.................................................passed
+Then it gives an error message..............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Use the website to find restaurants" name="Find Help" time="9.637668">
+<system-out><![CDATA[Given I am on Just-Eat website..............................................passed
+When I click on Help button.................................................passed
+Then I lend on Help page....................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

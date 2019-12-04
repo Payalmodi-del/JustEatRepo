@@ -1,0 +1,162 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Search for restaurants in an area",
+        "description": "",
+        "id": "use-the-website-to-find-restaurants;search-for-restaurants-in-an-area",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14507463000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I want food in \"AR51 1AA\"",
+            "match": {
+              "location": "JustEatStepDefiniion.I_want_food_in_location()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10768531500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I search for restaurants",
+            "match": {
+              "location": "JustEatStepDefiniion.I_search_for_restaurants()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11381295099,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should see some restaurants in \"AR51 1AA\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "AR51 1AA",
+                  "offset": 34
+                }
+              ],
+              "location": "JustEatStepDefiniion.i_should_see_some_restaurants_in_given_location(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "Entering wrong postcode",
+        "description": "",
+        "id": "use-the-website-to-find-restaurants;entering-wrong-postcode",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5555201200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I want food at \"L6Y 4P9\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "L6Y 4P9",
+                  "offset": 16
+                }
+              ],
+              "location": "JustEatStepDefiniion.i_want_food_at_location(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 215380100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click on send button",
+            "match": {
+              "location": "JustEatStepDefiniion.i_click_on_send_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 873900499,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "it gives an error message",
+            "match": {
+              "location": "JustEatStepDefiniion.it_gives_an_error_message()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "Find Help",
+        "description": "",
+        "id": "use-the-website-to-find-restaurants;find-help",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6440447900,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I am on Just-Eat website",
+            "match": {
+              "location": "JustEatStepDefiniion.i_am_on_Just_Eat_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2373580699,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I click on Help button",
+            "match": {
+              "location": "JustEatStepDefiniion.i_click_on_Help_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 823639800,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I lend on Help page",
+            "match": {
+              "location": "JustEatStepDefiniion.i_lend_on_Help_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Use the website to find restaurants",
+    "description": "         So that I can order food\r\n         As a hungry customer\r\n          I want to be able to find restaurants in my area",
+    "id": "use-the-website-to-find-restaurants",
+    "keyword": "Feature",
+    "uri": "C:/Selenium_Workspace/JustEatWithBDD_Payal/src/main/java/features/JustEat.feature"
+  }
+]
