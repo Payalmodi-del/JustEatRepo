@@ -3,7 +3,7 @@
 ## Installation and System Prerequisites for this project:
 
 1. windows 10 OS
-2. Latest Chrome Browser
+2. Latest Chrome Browser (webdriver chromedriver.exe has to be installed)
 3. Java 1.8.0_211 installed
 4. Latest version of Eclipce
 5. Selenium of version 3.141.59 
@@ -12,10 +12,12 @@
 
 # Steps
 
-1. Feature File creation using Gherkin Language(natural plugin), it will give outline of scenario and steps
+1. Feature File creation using Gherkin Language(natural plugin needed to be installed in eclipse), it will give an outline of scenario and steps
 2. Step Definition file using cucumber Gherkin annotations, includ methods to run for steps defined in feature file
 3. Test Runner class using Junit and Cucumber Options(generated reports as well in json, xml and html format)
 
+# How to run the test:
+By russing Test Runner class or using mvn commands in command prompt
 
 ## TODO: 
 1.open chrome, launch url http://www.just-eat.co.uk/
